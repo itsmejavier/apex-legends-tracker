@@ -570,7 +570,7 @@
               value: 0.05,
             },
             tooltip: [
-              { field: 'Record Date', timeUnit: 'yearmonthdate', title: 'Record Date' },
+              { field: 'Record Date', timeUnit: 'yearmonthdatehours', title: 'Record Date' },
               { field: 'Kills' },
               { field: 'Type Kills' },
             ],
