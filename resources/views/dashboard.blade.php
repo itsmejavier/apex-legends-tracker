@@ -317,7 +317,11 @@
             background: '#0000',
           },
           data: { values: apex_stats_1 },
-          mark: { type: 'bar', cursor: 'pointer', tooltip: true },
+          mark: { 
+            type: 'bar',             
+            cursor: 'pointer', 
+            tooltip: true 
+          },
           encoding: {
             color: {
               field: 'Damage Dealt',
@@ -391,7 +395,11 @@
             background: '#0000',
           },
           data: { values: apex_stats_1 },
-          mark: { type: 'bar', cursor: 'pointer', tooltip: true },
+          mark: { 
+            type: 'bar', 
+            cursor: 'pointer', 
+            tooltip: true 
+          },
           encoding: {
             color: {
               field: 'Placement',
@@ -464,7 +472,12 @@
             background: '#0000',
           },
           data: { values: apex_stats_1 },
-          mark: { type: 'bar', size: 15, cursor: 'pointer', tooltip: true },
+          mark: { 
+            type: 'bar', 
+            size: 15, 
+            cursor: 'pointer', 
+            tooltip: true,
+          },
           encoding: {
             color: {
               field: 'Damage Dealt',
@@ -540,7 +553,11 @@
             background: '#0000',
           },
           data: { values: apex_stats_2 },
-          mark: { type: 'bar' },
+          mark: { 
+            type: 'bar',
+            cornerRadiusTopLeft: 5,
+            cornerRadiusTopRight: 5,
+          },
           encoding: {
             color: {
               field: 'Type Kills',
@@ -560,7 +577,7 @@
             x: {
               axis: { labelColor: 'var(--border-color)', titleColor: 'var(--border-color)' },
               field: 'Record Date',
-              timeUnit: 'yearmonthdate',
+              timeUnit: 'yearmonthdatehours',
               title: 'Record Date',
               type: 'temporal',
             },
